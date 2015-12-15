@@ -39,6 +39,7 @@ int input_asg(char Num[6][6]) {
         if(Num[count][0] == '=')
             return count;
     }
+    return 0;
 }
 
 int judge(char Num[6][6], int N) {
