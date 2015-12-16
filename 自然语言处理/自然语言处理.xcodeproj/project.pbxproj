@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B15BC901C20DF8800E11A50 /* deal.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B15BC8E1C20DF8800E11A50 /* deal.c */; };
 		0B27E82E1C205798002383AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B27E82D1C205798002383AB /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B15BC8E1C20DF8800E11A50 /* deal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deal.c; sourceTree = "<group>"; };
+		0B15BC8F1C20DF8800E11A50 /* deal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deal.h; sourceTree = "<group>"; };
 		0B27E82A1C205798002383AB /* 自然语言处理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自然语言处理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B27E82D1C205798002383AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0B27E82D1C205798002383AB /* main.c */,
+				0B15BC8E1C20DF8800E11A50 /* deal.c */,
+				0B15BC8F1C20DF8800E11A50 /* deal.h */,
 			);
 			path = "自然语言处理";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B27E82E1C205798002383AB /* main.c in Sources */,
+				0B15BC901C20DF8800E11A50 /* deal.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +243,7 @@
 				0B27E8331C205798002383AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
