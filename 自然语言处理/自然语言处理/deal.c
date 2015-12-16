@@ -43,6 +43,7 @@ int judge(char Num[6][6], int N) {
 int input_asg(char Num[6][6]) {
     int count;
     
+    puts("please enter the equation\nfor example： one + one =\nenter \"zero ＋ zero ＝\" to quit");
     for(count = 0; count < 6; count += 1) {
         scanf("%s",*(Num + count));
         if(Num[count][0] == '=')
