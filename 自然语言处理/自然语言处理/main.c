@@ -7,8 +7,7 @@
 //
 
 #include<stdio.h>
-#include<string.h>
-#include "deal.h"
+#include "deal.h"//函数支持库，为judge,input_asg,output函数提供原型
 int main()
 {
     char Num[6][6];
